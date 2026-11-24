@@ -1,9 +1,7 @@
 # Sunanditha B S
 
 **Software engineer: backend, systems, and security.**
-Final-year B.E. Information Science & Engineering, RNSIT Bengaluru (graduating May 2027). Open to SWE, backend, security and DevOps internships, Jan-Jun 2027.
-
-I build backend services and the systems underneath them, with a security focus: APIs and sandboxed execution, Linux kernel drivers, and automotive security tooling.
+Final-year B.E. Information Science & Engineering, RNSIT Bengaluru (graduating May 2027). Open to SWE, backend, security and DevOps internships, Jan to Jun 2027.
 
 [Portfolio](https://sunanditha-archive.netlify.app) · [LinkedIn](https://linkedin.com/in/sunanditha-b-s)
 
@@ -17,24 +15,12 @@ I build backend services and the systems underneath them, with a security focus:
 | [**pciedriv**](https://github.com/sunandithabs/pciedriv) | Linux PCIe driver for QEMU's edu device: BAR/MMIO, MSI, coherent DMA, ioctl interface, debugfs stats, QEMU test harness with 11 checks including 4-process concurrency. | C, Linux kernel, QEMU, gdb |
 | [**excalibur**](https://doi.org/10.13140/RG.2.2.29872.52489) | Lifecycle threat model for adaptive CAN IDS. Timestamp-drift attack validated on real ORNL ROAD traffic, plus a median/MAD filter that suppresses it. Submitted to C2IS 2026. | Python |
 
-## What I work on
-
-**Backend**
-NestJS REST and WebSocket services, JWT auth with rotating refresh tokens, Prisma and PostgreSQL, Docker, CI with GitHub Actions.
-
-**Systems**
-PCIe drivers in C, kernel debugging with gdb and ftrace, initramfs and GRUB recovery, Arch Linux daily driver.
-
-**Security (automotive focus)**
-CAN bus intrusion detection, signed firmware updates, X.509 trust chains, threat modelling for adaptive CAN IDS.
-
 ## Toolkit
 
 **Languages:** TypeScript, Python, C, SQL, Bash
 **Backend:** NestJS, Next.js, REST, WebSockets, Prisma, PostgreSQL, JWT
 **DevOps:** Docker, docker compose, GitHub Actions CI
 **Systems:** Linux (Arch), kernel modules, PCIe, QEMU, gdb, ftrace
-**Testing:** pytest, integration and attack-scenario test suites
 **Learning:** bug bounty (Intigriti, HackerOne)
 
 ## Recognition
@@ -43,7 +29,3 @@ CAN bus intrusion detection, signed firmware updates, X.509 trust chains, threat
 - 1st place, national: "Escape and Exploit" cybersecurity competition
 - Top 15, national: ZeroDay Arena CTF
 - Paper at CSITSS 2026: Simulyn, virtual engineering labs
-
----
-
-Open to SWE, backend, and DevOps internships. [LinkedIn](https://linkedin.com/in/sunanditha-b-s)
