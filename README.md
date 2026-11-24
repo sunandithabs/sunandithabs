@@ -1,64 +1,49 @@
-<div align="center">
+# Sunanditha B S
 
-<table width="100%">
-<tr>
-<td width="64%" valign="middle">
-<h1>sunan</h1>
-<h2>software engineer</h2>
-<p>backend services, and the systems underneath them.</p>
-<p>final-year B.E. ISE at RNSIT, Bengaluru. typescript and python backends, linux and C, security-minded engineering.</p>
-<p><a href="https://sunanditha-archive.netlify.app">portfolio</a> · <a href="https://linkedin.com/in/sunanditha-b-s">linkedin</a></p>
-</td>
-<td width="36%" valign="middle" align="center">
-<img src="https://avatars.githubusercontent.com/u/202910194?u=a5f8c52db31f9ff5be12479ba86c2fb7e691bdf6&amp;v=4" width="180" alt="sunan GitHub avatar" />
-</td>
-</tr>
-</table>
+**Software engineer: backend, systems, and security.**
+Final-year B.E. Information Science & Engineering, RNSIT Bengaluru (graduating May 2027). Open to SWE, backend, security and DevOps internships, Jan-Jun 2027.
 
-</div>
+I build backend services and the systems underneath them, with a security focus: APIs and sandboxed execution, Linux kernel drivers, and automotive security tooling.
 
-## what i work on
+[Portfolio](https://sunanditha-archive.netlify.app) · [LinkedIn](https://linkedin.com/in/sunanditha-b-s)
 
-<table width="100%">
-<tr>
-<td width="33%" valign="top"><h3>backend and apis</h3><p>nestjs rest and websocket services, jwt auth with rotating refresh tokens, prisma and postgres, docker, ci with github actions.</p></td>
-<td width="33%" valign="top"><h3>systems and linux</h3><p>pcie drivers in C, kernel debugging with gdb and ftrace, initramfs and grub recovery, arch linux daily driver.</p></td>
-<td width="33%" valign="top"><h3>secure software</h3><p>signed firmware updates, x.509 trust chains, can bus intrusion detection, and a threat model for adaptive can ids.</p></td>
-</tr>
-</table>
+## Selected work
 
-## selected work
-
-| project | what it is | stack |
+| Project | What it is | Stack |
 | --- | --- | --- |
-| [**simulyn**](https://github.com/sunandithabs/simulyn) | virtual engineering lab platform. nestjs rest and socket.io api, jwt auth, sandboxed multi-language code execution, live exam proctoring. 247 tests, piloted with 8 students. csitss 2026 paper. | TypeScript, NestJS, Next.js, Prisma, Docker |
-| [**canary**](https://github.com/sunandithabs/canary) | real-time can bus ids on live socketcan. 6 detectors for spoofing, replay, flooding, and malformed frames, with the 15-bit crc in C bridged via ctypes. 47 tests, ci. | Python, C, pytest |
-| [**bolt**](https://github.com/sunandithabs/bolt) | secure boot and ota toolkit. signed firmware, 2-tier x.509 chain, a/b partitions, tested against rollback, signature stripping, mitm, and power loss. 33 tests, ci. | Python, RSA-PSS, x.509 |
-| [**pciedriv**](https://github.com/sunandithabs/pciedriv) | linux pcie driver for qemu's edu device. bar/mmio, msi, coherent dma, ioctl interface, debugfs stats, and a qemu test harness with 11 checks including 4-process concurrency. | C, linux kernel, qemu, gdb |
-| [**excalibur**](https://doi.org/10.13140/RG.2.2.29872.52489) | lifecycle threat model for adaptive can ids. timestamp-drift attack validated on real ORNL ROAD traffic, plus a median/MAD filter that suppresses it. submitted to C2IS 2026. | Python |
+| [**simulyn**](https://github.com/sunandithabs/simulyn) | Virtual engineering lab platform. NestJS REST and Socket.IO API, JWT auth, sandboxed multi-language code execution, live exam proctoring. 247 tests, piloted with 8 students. CSITSS 2026 paper. | TypeScript, NestJS, Next.js, Prisma, Docker |
+| [**canary**](https://github.com/sunandithabs/canary) | Real-time CAN bus IDS on live SocketCAN. 6 detectors for spoofing, replay, flooding, and malformed frames, with the 15-bit CRC in C bridged via ctypes. 47 tests, CI. | Python, C, pytest |
+| [**bolt**](https://github.com/sunandithabs/bolt) | Secure boot and OTA toolkit for automotive ECUs (software-simulated). Signed firmware, 2-tier X.509 chain, A/B partitions, tested against rollback, signature stripping, MITM, and power loss. 33 tests, CI. | Python, RSA-PSS, X.509 |
+| [**pciedriv**](https://github.com/sunandithabs/pciedriv) | Linux PCIe driver for QEMU's edu device: BAR/MMIO, MSI, coherent DMA, ioctl interface, debugfs stats, QEMU test harness with 11 checks including 4-process concurrency. | C, Linux kernel, QEMU, gdb |
+| [**excalibur**](https://doi.org/10.13140/RG.2.2.29872.52489) | Lifecycle threat model for adaptive CAN IDS. Timestamp-drift attack validated on real ORNL ROAD traffic, plus a median/MAD filter that suppresses it. Submitted to C2IS 2026. | Python |
 
-## toolkit
+## What I work on
 
-**languages:** TypeScript, Python, C, SQL, Bash
+**Backend**
+NestJS REST and WebSocket services, JWT auth with rotating refresh tokens, Prisma and PostgreSQL, Docker, CI with GitHub Actions.
 
-**backend:** NestJS, Next.js, REST, WebSockets, Prisma, PostgreSQL, JWT, Docker, GitHub Actions
+**Systems**
+PCIe drivers in C, kernel debugging with gdb and ftrace, initramfs and GRUB recovery, Arch Linux daily driver.
 
-**systems:** linux (arch), kernel modules, pcie, qemu, gdb, ftrace
+**Security (automotive focus)**
+CAN bus intrusion detection, signed firmware updates, X.509 trust chains, threat modelling for adaptive CAN IDS.
 
-**practice:** pytest, docker compose, git, ci, bug bounty (intigriti, hackerone)
+## Toolkit
 
-## recognition
+**Languages:** TypeScript, Python, C, SQL, Bash
+**Backend:** NestJS, Next.js, REST, WebSockets, Prisma, PostgreSQL, JWT
+**DevOps:** Docker, docker compose, GitHub Actions CI
+**Systems:** Linux (Arch), kernel modules, PCIe, QEMU, gdb, ftrace
+**Testing:** pytest, integration and attack-scenario test suites
+**Learning:** bug bounty (Intigriti, HackerOne)
+
+## Recognition
 
 - 1st place, national: TechVision '26 project expo (CMRIT)
-- 1st place, national: "escape and exploit" cybersecurity competition
-- top 15, national: zeroday arena ctf
-- paper at CSITSS 2026: simulyn, virtual engineering labs
+- 1st place, national: "Escape and Exploit" cybersecurity competition
+- Top 15, national: ZeroDay Arena CTF
+- Paper at CSITSS 2026: Simulyn, virtual engineering labs
 
-<hr />
+---
 
-<table width="100%">
-<tr>
-<td width="62%" valign="middle"><h2>open to software engineering internships</h2><p>backend, systems, and security-focused roles.</p></td>
-<td width="38%" valign="middle" align="right"><a href="https://linkedin.com/in/sunanditha-b-s">linkedin</a></td>
-</tr>
-</table>
+Open to SWE, backend, and DevOps internships. [LinkedIn](https://linkedin.com/in/sunanditha-b-s)
